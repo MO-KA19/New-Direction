@@ -1,0 +1,245 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.home {
+    background-image: url("../media/general/home-ar.png");
+}
+
+.txt {
+    width: 40%;
+}
+
+.txt {
+    padding-right: 5%;
+}
+
+nav ul li a {
+    padding-right: 60px;
+}
+
+.txt h1{
+    text-align: right;
+    font-size: 50px;
+}
+
+.txt p {
+    text-align: right;
+}
+
+.txt button {
+    float: right;
+}
+
+.txt button a {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    text-align: right;
+}
+
+.about-pic {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 2%;
+}
+
+.about-pic img {
+    width: 800px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.about-cont {
+    padding-top: 5%;
+}
+
+.box:hover.box img {
+    transform: translateX(-100px);
+}
+
+.about h1 {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.about p{
+    text-align: right;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.sw-txt {
+    text-align: center;
+}
+
+.langs {
+    padding-right: 170px;
+}
+
+.langs a {
+    color: black;
+}
+
+.home-content div {
+    height: fit-content;
+    width: 100%;
+}
+
+
+@media (max-width:1440px) {
+    .home-content div {
+        height: fit-content;
+        width: 100%;
+        margin: 150px auto;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .langs {
+        padding: 0;
+    }
+
+    .home-content div {
+        height: fit-content;
+        width: 100%;
+        margin: 50px;
+    }
+
+    .about {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .txt h1{
+        text-align: right;
+        font-size: 38px;
+    }    
+}
+
+
+
+@media (max-width:768px) {
+    .home {
+        background-image: url("../media/general/home-ar.png");
+        background-position: right;
+    }
+
+    .home-content div {
+        height: fit-content;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .home-content div {
+        height: fit-content;
+        width: fit-content;
+        position: relative;
+        margin: 25px;
+        left: 100px;
+    }
+
+    .home-content div {
+        height: fit-content;
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .home {
+        background-image: unset;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .home-content div {
+        height: fit-content;
+        width: fit-content;
+        position: unset;
+    }
+
+    .man {
+        display: none;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    #burger {
+        display: block;
+        color: #8DC442;
+    }
+
+    #cross {
+        display: none;
+        color: #8DC442;
+    }
+
+    .item {
+        width: fit-content;
+        height: fit-content;
+        margin: 50px auto;
+    }
+
+    .clients {
+        margin-top: 300px;
+    }
+
+    .clients h1 {
+        font-size: 32px;
+    }
+
+    #ser-img {
+        width: 320px;
+        margin: 50px auto;
+    }
+
+    .box img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .box {
+        width: 100%;
+        padding: 32px;
+    }
+
+    .services .container {
+        flex-direction: column-reverse;
+    }
+
+    .mini-cont {
+        width: 100%;
+    }
+
+    .employ p {
+        width: 100%;
+    }
+
+    .employ h1 {
+        font-size: 20px;
+    }
+
+    
+    .section-header {
+        font-size: 28px;
+    }
+
+
+    .about-cont {
+        padding-right: 5%;
+    }
+}
