@@ -85,7 +85,7 @@ for (let i=0; i < boxes.length; i++) {
     boxes[i].onclick = async () => {
         let lang = language();
 
-        if (lang == "index.html") {
+        if (lang == "index.html" || "") {
             await getData("https://api.npoint.io/06e01b47ca5e96df8f1b");
             let icon = fullData["services"][i]["icon"];
             let title = fullData["services"][i]["name"];
